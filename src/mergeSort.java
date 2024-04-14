@@ -1,4 +1,4 @@
-public class MergeSort {
+public class mergeSort {
 
     void merge(int arr[], int l, int m, int r) {
         int n1 = m - l + 1;
@@ -49,3 +49,4 @@ public class MergeSort {
             merge(arr, l, m, r);
         }
     }
+}
